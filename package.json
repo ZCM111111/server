@@ -7,7 +7,7 @@
 		"unblockneteasemusic": "./precompiled/app.js"
 	},
 	"engines": {
-		"node": ">= 12"
+		"node": ">= 11"
 	},
 	"scripts": {
 		"start:dev": "cross-env LOG_LEVEL=debug node src/app.js -e https://music.163.com",
